@@ -1,3 +1,12 @@
+# Bu repo edalet_22 tərəfindən editlənib
+# Bu repodan icazəsiz hər hansı kodu sətri məlumatı kopyalıyıb
+# Öz adına çıxaran peysərdi
+# Bu yazıları silmədən işlədin
+
+# t.me/RoBotlarimTg | YouTube: RoBotlarimTg |
+# t.me/aykhan_s |  t.me/edalet_22
+# GitHub: aykhan026
+
 import random, os, logging, asyncio
 from telethon import Button
 from telethon import TelegramClient, events
