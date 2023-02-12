@@ -37,10 +37,10 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('Məni qrupa əlavə et ➕', "https://t.me/https://t.me/rosetagbot?startgroup=a")],
-                      [Button.url('Support 🛠', 'https://t.me/RoBotlarimSup'),
-                       Button.url('Rəsmi Kanal 🎴', 'https://t.me/RoBotlarimTg')],
-		      [Button.url('Sahib 👨🏻‍💻', 'https://t.me/edalet_22'),
-                       Button.url('Creator⚡️', 'https://t.me/edalet_22')],
+                      [Button.url('Support 🛠', 'https://t.me/GunelTagBot'),
+                       Button.url('Rəsmi Kanal 🎴', 'https://t.me/biolande')],
+		      [Button.url('Sahib 👨🏻‍💻', 'https://t.me/nesirovqadirofficiall'),
+                       Button.url('Creator⚡️', 'https://t.me/nesirovqadirofficiall')],
                     ),
                     link_preview=False
                    )
@@ -51,10 +51,10 @@ async def help(event):
                     buttons=(
                    
           [Button.url('Məni qrupa əlavə et ➕', "https://t.me/https://t.me/rosetagbot?startgroup=a")],
-                      [Button.url('Support 🛠', 'https://t.me/RoBotlarimSup'),
-                       Button.url('Rəsmi Kanal 🎴', 'https://t.me/RoBotlarimTg')],
-          [Button.url('Sahib 👨🏻‍💻', 'https://t.me/edalet_22'),
-                       Button.url('Creator⚡️', 'https://t.me/edalet_22')],
+                      [Button.url('Support 🛠', 'https://t.me/GunelTagBot'),
+                       Button.url('Rəsmi Kanal 🎴', 'https://t.me/biolande')],
+          [Button.url('Sahib 👨🏻‍💻', 'https://t.me/nesirovqadirofficiall'),
+                       Button.url('Creator⚡️', 'https://t.me/nesirovqadirofficiall')],
                     ),
                     link_preview=False
                    )
@@ -64,7 +64,7 @@ async def help(event):
   helptext = "** Relam və yaxud bot düzəltdirmək üçün @edalet_22 ! **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Məni qrupa əlavə et ➕', 'https://t.me/rosetagbot?startgroup=a')],
+                      [Button.url('Məni qrupa əlavə et ➕', 'https://t.me/GunelTagBot?startgroup=a')],
                     ),
                     link_preview=False
                    )
@@ -692,12 +692,12 @@ async def handler(event):
     # Kimsə "Salam" və başqa bir şey deyəndə cavab verin
     if str(event.sender_id) not in SUDO_USERS:
         return await event.reply("__Sən mənə sahib deyilsən!__")
-    await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/EdaletSup \n\n┈┈┈┈┈╱▔▔▔▔▔╲┈╭━━\n┈┏╮╭┓▏┈┈┈╭╮┈▏┃╭╮┈\n┈╰╮╭╯▏┈┈┣━━━▏╰┳━\n┈┈┃╰╱┈┈┈╰━━━▏━╯┈\n┈┈┈╲▂▂▂▂▂▂▂╱┈┈┈┈',
+    await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/nesirovqadirofficiall \n\n┈┈┈┈┈╱▔▔▔▔▔╲┈╭━━\n┈┏╮╭┓▏┈┈┈╭╮┈▏┃╭╮┈\n┈╰╮╭╯▏┈┈┣━━━▏╰┳━\n┈┈┃╰╱┈┈┈╰━━━▏━╯┈\n┈┈┈╲▂▂▂▂▂▂▂╱┈┈┈┈',
 		     buttons=(
-	             [Button.url('Sahibi','https://t.me/edalet_22'),
-	             Button.url('Group','https://t.me/RoBotlarimSup')],
+	             [Button.url('Sahibi','https://t.me/nesirovqadirofficiall'),
+	             Button.url('Group','https://t.me/biolande')],
                     ),
                     link_preview=False)
 
-print("==> EdaletTaggerBot online..!\n==> Owner @edalet_22\n==> Editor @edalet_22")
+print("==> GunelTagBot online..!\n==> Owner @nesirovqadirofficiall\n==> Editor @nesirovqadirofficiall")
 client.run_until_disconnected()
