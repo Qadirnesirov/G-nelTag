@@ -1,19 +1,19 @@
 {
   "name": "Edalet Tagger Bot",
   "logo":"x",
-  "description": "Edalet_22",
+  "description": "nesirovqadirofficiall",
   "env": {
     "TOKEN": "  " {
-      "description": "bot token girin.",
+      "description": "6149733877:AAFa-8QvlTpRdKNlaDE4HVwaP93BKpVr2yU",
       "value": ""
     },
     "APP_ID": 16421462 {
-      "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
+      "description": "26712413",
       "value": ""
     },
 
     "API_HASH": "    " {
-      "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
+      "description": "3298034eb7cec614ef852fda02536153",
       "value": ""
     }
   },
